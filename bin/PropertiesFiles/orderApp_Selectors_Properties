@@ -1,0 +1,37 @@
+//***************SignInPage***********//
+
+loginEmail=CssSelector:input[name='username']
+loginPass=CssSelector:input[name='password']
+loginButton=CssSelector:button[type='submit']
+draftOrders=CssSelector:.styles_mainPageNav__21JED
+
+
+//*************CreateOrderPAge**************//
+createOrder=CssSelector:.styles_NewOrderButton__2gcdE
+Orderdescription=CssSelector:input[name='description']
+region=CssSelector:#region
+supplier=CssSelector:#supplier
+factory=CssSelector:#factory
+productTeam:CssSelector:#productTeam
+productGroup:CssSelector:#productGroupPIM
+style=CssSelector:#style
+construction=CssSelector:#construction
+primarycomposition_clothing=CssSelector:#primarycomposition_clothing
+sizeConfig=CssSelector:#sizeConfig
+colour=CssSelector:#colour
+freightCountry=CssSelector:#freightCountry
+quantity=CssSelector:input[name='totalQuantity']
+varient=Xpath://span[contains(.,'Save Variant')]
+exFactoryDate=CssSelector:input[name='exFactoryDate']
+EstFactoryDate=CssSelector:input[name='deliveryDate']
+costPrice=CssSelector:input[name='supplierPrice']
+retailPrice=CssSelector:input[name='retailPrice']
+callculateCost=CssSelector:.styles_calculate__yufsH
+fabricComposition=CssSelector:input[name='fabricComposition']
+attributesTab=CssSelector:div.MuiAccordionSummary-content
+//gender=CssSelector:.styles_toggleButtonGroup__1WG2W:nth-child(6) < .MuiToggleButton-label:nth-child(1)
+gender=Xpath:(//span[normalize-space()='Female'])[1]
+season=Xpath://button[contains(.,'AW21CF')]
+furRisk=Xpath:(//button[@value='true'])[4]
+propRisk=Xpath:(//button[@value='true'])[5]
+saveDraft:CssSelector:button[type='submit']
