@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)" preserve-order="true">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.orderApp.WebScript.Create_PurchaseOrder">
+        <methods>
+          <include name="Login"/>
+          <include name="beforeTest"/>
+          <include name="AfterTest"/>
+          <include name="CreatePO_Order"/>
+        </methods>
+      </class> <!-- com.orderApp.WebScript.Create_PurchaseOrder -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
