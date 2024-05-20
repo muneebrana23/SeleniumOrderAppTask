@@ -31,7 +31,8 @@ productSize=Xpath://ul[contains(@class, 'bag-item__details-list')]/li[position()
 productSubtotal=Xpath://*[@class='bag__totals-item subtotal']/span[position()=2]
 deliveryTotal=CssSelector:.bag__totals-item
 grandTotal=CssSelector:[class='bag__totals-item grand-total']
-goToPayment=Xpath://h2[contains(@class, 'box__title') and text() = 'Payment Information']
+goToPayment=CssSelector:[class='btn c-button c-button btn--payment ']
+Xpath://h2[contains(@class, 'box__title') and text() = 'Payment Information']
 paymentMethod=CssSelector:input[name='worldpay']
 
 

@@ -1,0 +1,18 @@
+It contains two Branches
+
+*main => Main branch contains PrettylittleThing Assigned Task with DriverFactory, Utility, helper/actions class, POM and TestngFramework
+*feature/OrderAppWithDataDriven => Contains OrderApp Task to Login and Create multiple orders via Excel file through DataDriven test
+
+
+Testng Xml file is under OrderApp_XML folder
+Page Object Model classes are under src>com.orderApp>POM
+Test Class is under src>com.orderApp>WebScript
+
+All useable helpers/Actions methods are in CommonActions classes under 'helpers' folder
+Credentials are provided through propertiesFile and are encrypted throgh AESCryption under Utils and decrypted during execution from "ReadCredsProperty" file
+Web Element Selectors are also Provided through 'PropertiesFiles'
+'ReadCredsProperty' file is to read and execute data from properties files(User data and Web Element Selectors)
+
+This task is build using Jar files and all jar files are under lib folder.
+
+To Execute the Project, build the Project using JAr files under Lib folder and Execute 'PrettyLittleThingPlaceOrder.xml' file under OrderApp_XML as TestNG Test

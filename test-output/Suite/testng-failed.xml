@@ -5,14 +5,13 @@
   <test name="Test(failed)" preserve-order="true">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.orderApp.WebScript.Create_PurchaseOrder">
+      <class name="com.orderApp.WebScript.PrettyLittleThingPlaceOrder">
         <methods>
-          <include name="Login"/>
-          <include name="beforeTest"/>
           <include name="AfterTest"/>
-          <include name="CreatePO_Order"/>
+          <include name="PlaceOrderOnPLT"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.orderApp.WebScript.Create_PurchaseOrder -->
+      </class> <!-- com.orderApp.WebScript.PrettyLittleThingPlaceOrder -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

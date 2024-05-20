@@ -29,7 +29,7 @@ public class ReadCredsProperty {
 
 	public static String getUserCredentials(String userData) throws IOException {
 		AESEncrption DecryptData = new AESEncrption();
-		String decryptedString=DecryptData.decrypt(getPropertyObject().getProperty(userData), "AESEncryptionTestSecretKey", "AESEncryptionTestSaltKey");
+		String decryptedString=DecryptData.decrypt(getPropertyObject().getProperty(userData), "AESEncryptionTestSecretKey", "AESEncryptionTestSaltKey"); //For task providing Secret key directly, will later provide through document file
 		System.out.println("Decrypted String : " + decryptedString);
 		return decryptedString;
 		// return getPropertyObject().getProperty("username");

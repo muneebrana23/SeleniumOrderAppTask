@@ -5,9 +5,7 @@
     <classes>
       <class name="com.orderApp.WebScript.PrettyLittleThingPlaceOrder">
         <methods>
-          <include name="AfterTest"/>
-          <include name="beforeTest"/>
-          <include name="Login"/>
+          <include name="PlaceOrderOnPLT"/>
         </methods>
       </class> <!-- com.orderApp.WebScript.PrettyLittleThingPlaceOrder -->
     </classes>

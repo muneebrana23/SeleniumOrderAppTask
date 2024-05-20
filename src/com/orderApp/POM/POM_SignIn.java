@@ -28,8 +28,5 @@ WebDriver driver;
 		helpers.waitForElementDisplayed(getSelector("passwordField"));
 		driver.findElement(getSelector("passwordField")).sendKeys(getUserCredentials("PLTPassword")); 
 		driver.findElement(getSelector("submitButton")).click();
-
 	}
-	
-
 }
