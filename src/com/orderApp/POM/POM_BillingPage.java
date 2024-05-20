@@ -54,6 +54,6 @@ public class POM_BillingPage {
 	}
 	public void clickOnPaymentMethod() throws InterruptedException, IOException {
         helpers.ScrollToView(getSelector("goToPayment"));
-		helpers.waitAndClick(getSelector("paymentMethod"));
+		helpers.waitAndClick(getSelector("goToPayment"));
 	}
 }

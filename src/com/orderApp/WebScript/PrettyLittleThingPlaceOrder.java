@@ -58,7 +58,7 @@ public class PrettyLittleThingPlaceOrder {
 	
 	@AfterTest
 	public void AfterTest() {
-//		driver.quit();
+		driver.quit();
 	}
 
 }
